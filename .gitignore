@@ -14,5 +14,8 @@ example/cert
 ./vscode
 output/*
 .idea/*
+.env
+docker/v2node/
+data/
 new.sh
 quick_update.sh
