@@ -1,0 +1,14 @@
+services:
+  v2node:
+    build:
+      context: .
+      args:
+        VERSION: docker
+    image: v2node:local
+    container_name: v2node
+    restart: unless-stopped
+    network_mode: host
+    env_file:
+      - .env
+    volumes:
+      - ./docker/v2node:/etc/v2node
