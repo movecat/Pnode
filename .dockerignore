@@ -1,0 +1,9 @@
+.git
+.github
+.idea
+.vscode
+.env
+build_assets
+docker/v2node
+output
+*.log
